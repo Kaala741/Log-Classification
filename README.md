@@ -42,6 +42,29 @@ It integrates Regex-based extraction, BERT-based semantic classification, and Ll
 
 ---
 
+## **File Structure** :
+``` 
+Log-Classification/
+├── main.py                      # FastAPi app script
+├── classify.py                  # Orchestrator script for classification
+├── processor_bert.py            # BERT-based classification
+├── processor_llm.py             # LLM (Llama) reasoning
+├── processor_regex.py           # Regex-based log parsing
+├── models/                     # Saved model weights, config files
+│   └── log_classifier.joblib
+├── requirements.txt             # List of dependencies
+├── resources/                  # External resources / sample logs / labels
+│   └── output.csv
+|   └── test.csv
+├── README.md                    # readme file
+└── training/                    # Training scripts or notebooks
+    ├── Dataset/
+    |   └── test.csv
+    └── log_classification.ipynb
+```
+
+---
+
 📦 ## **Installation & Usage**
 
 **Clone the repository**:
