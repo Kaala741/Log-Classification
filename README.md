@@ -1,12 +1,12 @@
 # Log Classification System using Llama, BERT, NLP & Regex
-🚀 **Project Overview**
+## 🚀 **Project Overview**
 
 This project is an AI-powered log analysis system that automatically parses, classifies, and explains large-scale application logs in real time. 
 It integrates Regex-based extraction, BERT-based semantic classification, and Llama-powered reasoning to detect anomalies, categorize logs, and summarize root causes for system incidents.
 
 ---
 
-🧩 ## **Features**
+## 🧩  **Features**
 
 - **Regex-based Log Parsing** : Extracts structured data like timestamps, error codes, IPs, and stack traces from unstructured logs.
 
@@ -22,7 +22,7 @@ It integrates Regex-based extraction, BERT-based semantic classification, and Ll
 
 ---
 
-📈 ## **Impact**
+## 📈 **Impact**
 
 1.Reduced log triage and root-cause detection time by ~70%.
 
@@ -32,7 +32,7 @@ It integrates Regex-based extraction, BERT-based semantic classification, and Ll
 
 ---
 
-🛠 ## **Tech Stack**
+## 🛠 **Tech Stack**
 
 - **Language & Frameworks** : Python, FastAPI
 
@@ -65,7 +65,7 @@ Log-Classification/
 
 ---
 
-📦 ## **Installation & Usage**
+## 📦 **Installation & Usage**
 
 **Clone the repository**:
 
@@ -97,7 +97,7 @@ Use the endpoints to stream logs, classify them, and get summaries.
 Note: Do not commit .env or other sensitive files. Add them to .gitignore.
 
 ----
-🔒 ## **Security & Best Practices**
+## 🔒 **Security & Best Practices**
 
 Secrets (API keys, passwords) must never be committed.
 
